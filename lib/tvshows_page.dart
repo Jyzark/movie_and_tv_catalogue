@@ -86,7 +86,7 @@ class _TVShowsPageState extends State<TVShowsPage> {
         children: [
 /*Upcoming Movies*/
           CarouselSection(
-              sectionTitle: 'On The Air',
+              sectionTitle: 'On The Air TV Shows',
               sectionSubtitle: 'Lorem Ipsum Dolor Sit Amet',
               movieListType: _fetchOnTheAirTV()),
 /*Space*/
@@ -95,7 +95,7 @@ class _TVShowsPageState extends State<TVShowsPage> {
           const SizedBox(height: 20),
 /*Popular Movies*/
           CarouselSection(
-              sectionTitle: 'Popular',
+              sectionTitle: 'Popular TV Shows',
               sectionSubtitle: 'Lorem Ipsum Dolor Sit Amet',
               movieListType: _fetchPopularTV()),
 /*Space*/
@@ -104,7 +104,7 @@ class _TVShowsPageState extends State<TVShowsPage> {
           const SizedBox(height: 20),
 /*Top Rated Movies*/
           CarouselSection(
-              sectionTitle: 'Top Rated',
+              sectionTitle: 'Top Rated TV Shows',
               sectionSubtitle: 'Lorem Ipsum Dolor Sit Amet',
               movieListType: _fetchTopRatedTV()),
 /*Space*/

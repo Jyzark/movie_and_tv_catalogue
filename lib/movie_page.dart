@@ -86,7 +86,7 @@ class _MoviePageState extends State<MoviePage> {
         children: [
 /*Upcoming Movies*/
           CarouselSection(
-              sectionTitle: 'Upcoming',
+              sectionTitle: 'Upcoming Movies',
               sectionSubtitle: 'Lorem Ipsum Dolor Sit Amet',
               movieListType: _fetchUpcomingMovies()),
 /*Space*/
@@ -95,7 +95,7 @@ class _MoviePageState extends State<MoviePage> {
           const SizedBox(height: 20),
 /*Popular Movies*/
           CarouselSection(
-              sectionTitle: 'Popular',
+              sectionTitle: 'Popular Movies',
               sectionSubtitle: 'Lorem Ipsum Dolor Sit Amet',
               movieListType: _fetchPopularMovies()),
 /*Space*/
@@ -104,7 +104,7 @@ class _MoviePageState extends State<MoviePage> {
           const SizedBox(height: 20),
 /*Top Rated Movies*/
           CarouselSection(
-              sectionTitle: 'Top Rated',
+              sectionTitle: 'Top Rated Movies',
               sectionSubtitle: 'Lorem Ipsum Dolor Sit Amet',
               movieListType: _fetchTopRatedMovies()),
 /*Space*/
