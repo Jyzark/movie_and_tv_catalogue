@@ -55,8 +55,8 @@ class _MyAppState extends State<MyApp> {
           },
           currentIndex: _selectedIndex,
           items: [
-            FloatingNavbarItem(icon: Icons.home),
-            FloatingNavbarItem(icon: Icons.explore),
+            FloatingNavbarItem(icon: Icons.movie),
+            FloatingNavbarItem(icon: Icons.live_tv),
           ],
         ),
       ),
